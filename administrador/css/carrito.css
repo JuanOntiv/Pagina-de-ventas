@@ -1,0 +1,86 @@
+body{
+    background-color: #e9ecf5;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 20px;
+}
+
+
+.carrito{
+    width: 800px;
+    margin-top: 30px;
+    margin: auto;
+    margin-bottom: 40px;
+    border-radius: 10px;
+}
+
+.categorias_carrito {
+    border-radius: 10px;
+    display: flex; 
+}
+
+.categoria{
+    width: 200px;
+    height: 50px;
+    text-align: center;
+    background-color: #FF3A3A;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+}
+
+.productos_carrito {
+    display: flex; 
+    flex-direction: column;
+    width: 100%;
+}
+
+.producto_fila {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #e9ecf5;
+    border-radius: 10px;
+}
+
+
+.productosc{
+    width: 200px;
+    height: 60px;
+    text-align: center;
+    background-color: white;
+    font-weight: bold;
+    text-align: center;
+
+}
+
+.productos_cantidad{
+    align-items: center;
+}
+
+
+.total{
+    display: flex;
+    margin: auto;
+}
+
+.total_titulo{
+    padding-left: 90px;
+    width: 600px;
+    font-size: 14px;
+    font-weight: bold;
+    border: 1px solid #ccc;
+    border-right: 0px;
+    border-bottom-left-radius: 10px;
+}
+
+.total_cantidad{
+    padding-left: 98px;
+    width: 400px;
+    font-size: 14px;
+    font-weight: bold;
+    border: 1px solid #ccc;
+    border-left: 0px;
+    border-bottom-right-radius: 10px;   
+}

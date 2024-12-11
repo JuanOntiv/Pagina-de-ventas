@@ -1,0 +1,133 @@
+body{
+    background-color: #e9ecf5;
+    font-family: Arial, sans-serif; 
+    line-height: 1.6;
+    margin: 0;
+    padding: 20px;
+}
+
+.tabla{
+    width: 1200px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #000;
+    border-radius: 5px;
+    margin: auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: white;
+    font-size: 12px;
+}
+
+.fila{
+    display: flex;
+    justify-content: space-between;
+    background-color: #f3f3f3;
+}
+
+.fila_categoria{
+    background-color: #FF3A3A;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+}
+
+.celda{
+    flex: 0 0 auto;
+    padding: 5px;
+    text-align: center;
+    border: 1px solid #333;
+    border-left: 0;
+    border-bottom: 0;
+}
+
+
+.caja_id{
+    flex-basis: 29px;
+    background-color: #FAA;
+}
+
+.caja_nombre{
+    flex-basis: 275px;
+    background-color: #e7e7e7;
+}
+
+.caja_codigo{
+    flex-basis: 60px;
+    background-color: #e7e7e7;
+}
+
+.caja_descripcion{
+    flex-basis: 379px;
+    background-color: #e7e7e7;
+}
+
+.caja_costo{
+    flex-basis: 75px;
+    background-color: #e7e7e7;
+}
+
+.caja_stock{
+    flex-basis: 50px;
+    background-color: #e7e7e7;
+}
+
+
+.caja_boton{
+    flex-basis: 78px;
+    background-color: #CFCFCF;
+}
+
+.caja_boton a{
+    text-decoration: none;
+    color: #D22;
+}
+
+.titulo{
+    text-align: center;
+}
+
+.botones{
+    margin: 20px auto; 
+    margin-top: 5px;
+    width: 220px; 
+    height: 28px;
+    text-align: center;
+    border-radius: 5px;
+    background-color: #F33;
+    color: white;
+    cursor: pointer;
+}
+
+.botones a{
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.botones:hover{
+    background-color: #D22;
+}
+
+.celda_fila{
+    background-color: #F33;
+    font-size: 14px;
+}
+
+.caja_id:hover,
+.caja_nombre:hover, 
+.caja_codigo:hover, 
+.caja_descripcion:hover, 
+.caja_costo:hover,
+.caja_stock:hover,
+.caja_boton:hover{
+    background-color: rgba(245, 31, 49, 0.678);
+    font-size: 14px;
+}
+
+
+
+.caja_boton a:hover{
+    text-decoration: none;
+    color: rgb(151, 9, 9);
+}

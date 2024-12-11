@@ -1,0 +1,39 @@
+.container_menu{
+    width: 900px;
+    border: 1px solid #000;
+    border-radius: 5px;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: white;
+    font-size: 12px;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    padding: 8px;
+}
+
+.categoria_menu{
+    width: 110px;
+    margin: 0 10px;
+    padding: 10px;
+    background-color: #F33;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.categoria_menu a{
+    text-decoration: none; 
+    color: #333; 
+    color: whitesmoke;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.categoria_menu:hover{
+    background-color: #D22;
+}

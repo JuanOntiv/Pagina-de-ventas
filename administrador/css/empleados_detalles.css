@@ -1,0 +1,66 @@
+body{
+    background-color: #e9ecf5;
+    font-family: Arial, sans-serif; 
+    line-height: 1.6;
+    padding: 20px;
+}
+
+.contenedor{
+    width: 800px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #000;
+    border-radius: 5px;
+    margin: auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: white;
+    font-size: 14px;
+}
+
+h1{
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.categoria{
+    font-weight: bold;
+    margin-left: 40px;
+    margin-bottom: 25px;
+}
+
+.datos{
+    font-weight: normal;
+}
+
+.boton_regresar{
+    margin: 20px auto; 
+    margin-top: 15px;
+    width: 220px; 
+    height: 28px;
+    text-align: center;
+    border-radius: 5px;
+    background-color: #F33;
+    color: white;
+    cursor: pointer;
+}
+
+.boton_regresar a{
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.boton_regresar:hover{
+    background-color: #D22;
+}
+
+.foto_empleado {
+    width: 250px; /* Ajusta el ancho */
+    max-height: 300px;
+    height: auto; /* Mantiene la proporción de la imagen */
+    border-radius: 10px; /* Bordes redondeados */
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); /* Sombra */
+    margin: 10px 0; /* Espaciado */
+}

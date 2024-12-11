@@ -1,0 +1,123 @@
+body{
+    background-color: #e9ecf5;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 20px;
+}
+
+h1{
+    text-align: center;
+}
+
+.formulario{
+    width: 600px;
+    border: 1px solid #000;
+    border-radius: 5px;
+    margin: auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: white;
+    font-size: 12px;
+}
+
+p{
+    margin-left: 40px;
+    margin-bottom: 0px;
+    font-weight: bold;
+    font-size: 14px;
+}
+.txt_foto{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+input[type="text"], input[type="password"], input[type="mail"],
+select{
+    width: 500px;
+    padding: 10px;
+    margin: 10px 40px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #e7e7e7;
+}           
+select {
+    width: 522px;
+}
+
+input[type="submit"]{
+    width: 522px;
+    height: 45px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #F33;
+    color: white;
+    cursor: pointer;
+    margin: 30px 40px 40px;
+    font-weight: bold;
+    font-size: 14px;
+}
+input[type="submit"]:hover, .botones:hover{
+    background-color: #D22;
+}
+
+.alert{
+    color: red;
+    text-align: center;
+}
+
+.botones{
+    margin: 20px auto; 
+    margin-top: 50px;
+    width: 220px; 
+    height: 35px;
+    text-align: center;
+    border-radius: 5px;
+    background-color: #F33;
+    color: white;
+    cursor: pointer;
+}
+.botones a{
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.error, #correo_val{
+    font-size: 14px;
+    font-weight: bold;
+    color: red;
+    margin: 0px 210px;
+}
+#correo_val{
+    margin: 0px 30px;
+}
+
+.foto{
+    margin: 10px 20px;
+    text-align: center;
+}
+
+.foto-input{
+    display: inline-block;
+    width: 479px;
+    padding: 10px 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #e7e7e7;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.foto-input:hover{
+    background-color: #d7d7d7;
+}
+
+.foto_promocion{
+    width: 250px; /* Ajusta el ancho */
+    height: auto; /* Mantiene la proporción de la imagen */
+    border-radius: 10px; /* Bordes redondeados */
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); /* Sombra */
+    margin: 10px 0; /* Espaciado */
+}

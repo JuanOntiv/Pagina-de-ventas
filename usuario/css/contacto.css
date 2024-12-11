@@ -1,0 +1,79 @@
+body{
+    background-color: #e9ecf5;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 20px;
+}
+
+.contenedor{
+    width: 1200px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    border: 1px solid #222;
+    border-radius: 10px;
+    margin: auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: white;
+    font-size: 14px;
+}
+
+h1{
+    margin-bottom: 30px;
+    font-size: 30px;
+}
+.formulario{
+    width: 600px;
+    border-radius: 10px;
+    margin: auto;
+    background-color: white;
+    font-size: 12px;
+}
+
+.caja_c p{
+    margin-left: 40px;
+    margin-bottom: 0px;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+input[type="text"], input[type="mail"], textarea{
+    width: 500px;
+    padding: 10px;
+    margin: 10px 40px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #e7e7e7;
+}   
+
+button[type="submit"]{
+    width: 522px;
+    height: 45px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #F33;
+    color: white;
+    cursor: pointer;
+    margin: 30px 40px 40px;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+button[type="submit"]:hover{
+    background-color: #D22;
+}
+
+.mensaje{
+    color: red;
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+    margin: 0px 210px;
+}
+
+.caja_comentario textarea {
+    height: 200px;
+    padding: 10px;
+}

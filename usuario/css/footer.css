@@ -1,0 +1,46 @@
+.contenedorf{
+    width: 900px;
+    border: 1px solid #222;
+    border-radius: 8px;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: white;
+    font-size: 12px;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    padding: 8px;
+}
+
+.cajaf{
+    width: 110px;
+    height: 50px;
+    margin: 0 10px;
+    padding: 0px;
+    border-radius: 8px;
+    cursor: pointer;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cajaf a, .cajaf p{
+    text-decoration: none; 
+    color: #333; 
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.derechos{
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+.cajaf:hover{
+    background-color: #D22;
+}

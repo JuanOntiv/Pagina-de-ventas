@@ -1,0 +1,199 @@
+body{
+    background-color: #e9ecf5;
+    font-family: Arial, sans-serif; 
+    line-height: 1.6;
+    padding: 20px;
+}
+
+.contenedor{
+    width: 1200px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #222;
+    border-radius: 10px;
+    margin: auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: white;
+    font-size: 14px;
+}
+
+h1{
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.detalles{
+    display: flex;
+    margin-bottom: 40px;
+    padding-right: 40px;
+}
+
+.datos_producto{
+    margin-top: 40px;
+}
+
+.categoria{
+    font-weight: bold;
+    margin-left: 40px;
+    margin-bottom: 25px;
+}
+
+.boton_regresar{
+    margin: 20px auto; 
+    margin-top: 15px;
+    width: 220px; 
+    height: 28px;
+    text-align: center;
+    border-radius: 5px;
+    background-color: #F33;
+    color: white;
+    cursor: pointer;
+}
+
+.boton_regresar a{
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.boton_regresar:hover{
+    background-color: #D22;
+}
+
+.foto_producto{
+    width: 300px;
+    max-height: 400px;
+    height: auto; 
+    border-radius: 10px; 
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    margin: 30px;
+}
+
+.nombre{
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 0px;
+}
+
+.descripcion{
+    margin-top: 10px;
+}
+
+.descripcion, .costo, .stock{
+    font-weight: normal;
+    font-size: 16px;
+}
+
+.codigo{
+    font-weight: normal;
+}
+
+.caja_boton{
+    margin-top: 20px;
+}
+
+.relacionados{
+    margin-top: 25px;
+    margin-left: 60px;
+    font-size: 26px;
+    font-weight: bold;
+}
+
+
+.tabla{
+    width: 1200px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    border-radius: 10px;
+    margin: auto;
+    margin-bottom: 20px;
+    background-color: white;
+    font-size: 14px;
+}
+
+.caja{
+    width: 300px;
+    margin: 35px;
+    padding: 1%;
+    border: 1px solid #aaa;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.caja_nombre a{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.caja_codigo{
+    font-size: 12px;
+}
+
+.caja_img{
+    margin: auto;
+    width: 200px;
+    height: 200px;
+    background-color: whitesmoke;
+    border-radius: 8px;
+}
+
+.foto_producto_rel{
+    max-width: 200px;
+    max-height: 200px;
+}
+
+.boton_regresar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    margin-bottom: 40px;
+}
+
+.boton_agregar, .caja_boton, .caja_boton{
+    height: 30px;
+    width: 160px;
+    border-radius: 5px;
+    background-color: #F33;
+    color: white;
+    text-align: center;
+    padding-top: 5px;
+    margin: auto;
+    margin-top: 10px;
+    margin-top: 5px;
+}
+
+.boton_agregar a , .caja_boton a, .boton_agregar input[type="submit"], .caja_boton a{
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.boton_agregar:hover , .caja_boton:hover, input[type="submit"]:hover, .caja_boton:hover{
+    background-color: #D22;
+    cursor: pointer;
+}
+
+input[type="number"], input[type="submit"]{
+    border-radius: 3px;
+    border: none; 
+    background-color: #F33;
+    color: whitesmoke;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: right;  
+}
+
+input[type="number"]:hover, input[type="submit"]:hover{
+    background-color: #C11;
+}
+
+.caja_boton{
+    margin-left: 30px;
+}
